@@ -1,5 +1,3 @@
-import React from "react";
-
 const Operation = (props) => {
   const handleButtonClick = () => {
     props.onClick(props.name); // Call the onClick handler provided by App component
